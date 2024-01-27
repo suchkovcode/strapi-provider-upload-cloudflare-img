@@ -1,0 +1,46 @@
+{
+  "name": "@suchkovcode/strapi-provider-upload-cloudflare-img",
+  "version": "1.0.0",
+  "description": "Strapi provider for uploading and deleting to/from Cloudflare streams and images compatible",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix \"src/**/*.js\"",
+    "lint:format": "prettier --write \"./**/*.{js,json,yml,yaml,css,scss,md,mdx,html}\""
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.4",
+    "axios": "^1.6.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.56.0",
+    "form-data": "^4.0.0",
+    "stream": "0.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "form-data": "^4.0.0",
+    "tus": "^0.1.7",
+    "tus-js-client": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suchkovcode/strapi-provider-upload-cloudflare-img.git"
+  },
+  "homepage": "https://github.com/suchkovcode/strapi-provider-upload-cloudflare-img#readme",
+  "keywords": [
+    "Strapi",
+    "upload",
+    "Cloudflare"
+  ],
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
